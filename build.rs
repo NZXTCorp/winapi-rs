@@ -164,6 +164,7 @@ const DATA: &'static [(&'static str, &'static [&'static str], &'static [&'static
     ("ddrawi", &[], &[]),
     ("ddrawint", &[], &[]),
     ("debugapi", &["minwinbase", "minwindef", "winnt"], &["kernel32"]),
+    ("delayimp", &["minwindef", "ntdef"], &[]),
     ("devicetopology", &["guiddef", "minwindef", "unknwnbase", "windef", "winnt", "wtypes"], &[]),
     ("dinput", &[], &[]),
     ("dispex", &["basetsd", "guiddef", "minwindef", "oaidl", "servprov", "unknwnbase", "winerror", "winnt", "wtypes"], &[]),
