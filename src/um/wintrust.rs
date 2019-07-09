@@ -17,9 +17,9 @@ STRUCT! {struct SPC_LINK_ {
 
 UNION!{union SPC_LINK_u {
     [u32; 6] [u64; 4],
-    pwszUrl: LPWSTR,
-    Moniker: SPC_SERIALIZED_OBJECT,
-    pwszFile: LPWSTR,
+    pwszUrl pwszUrl_mut: LPWSTR,
+    Moniker Moniker_mut: SPC_SERIALIZED_OBJECT,
+    pwszFile pwszFile_mut: LPWSTR,
 }}
 
 STRUCT! {struct SPC_SERIALIZED_OBJECT {
