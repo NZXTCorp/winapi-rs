@@ -357,6 +357,7 @@ const DATA: &'static [(&'static str, &'static [&'static str], &'static [&'static
     ("winsock2", &["basetsd", "guiddef", "inaddr", "minwinbase", "minwindef", "qos", "winbase", "windef", "winerror", "winnt", "ws2def", "wtypesbase"], &["ws2_32"]),
     ("winspool", &["guiddef", "minwinbase", "minwindef", "vcruntime", "windef", "winerror", "wingdi", "winnt"], &["winspool"]),
     ("winsvc", &["minwindef", "winnt"], &["advapi32"]),
+    ("wintrust", &["minwindef", "ntdef", "wincrypt"], &["crypt32"]),
     ("winusb", &["minwinbase", "minwindef", "usb", "usbspec", "winnt", "winusbio"], &["winusb"]),
     ("winuser", &["basetsd", "guiddef", "limits", "minwinbase", "minwindef", "vadefs", "windef", "wingdi", "winnt"], &["user32"]),
     ("winver", &["minwindef", "winnt"], &["kernel32", "version"]),

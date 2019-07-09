@@ -276,6 +276,7 @@ pub mod gl;
 #[cfg(feature = "winsock2")] pub mod winsock2;
 #[cfg(feature = "winspool")] pub mod winspool;
 #[cfg(feature = "winsvc")] pub mod winsvc;
+#[cfg(feature = "wintrust")] pub mod wintrust;
 #[cfg(feature = "winusb")] pub mod winusb;
 #[cfg(feature = "winuser")] pub mod winuser;
 #[cfg(feature = "winver")] pub mod winver;
