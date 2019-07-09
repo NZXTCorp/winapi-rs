@@ -1,8 +1,8 @@
 use shared::{
     minwindef::{DWORD, BYTE},
     ntdef::{LPCWSTR, LPWSTR},
-    wincrypt::CRYPT_DATA_BLOB,
 };
+use um::wincrypt::CRYPT_DATA_BLOB;
 
 STRUCT! {struct SPC_SP_OPUS_INFO {
     pwszProgramName: LPCWSTR,
