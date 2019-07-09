@@ -10,6 +10,10 @@ STRUCT! {struct SPC_SP_OPUS_INFO {
     pPublisherInfo: *mut SPC_LINK_,
 }}
 
+pub const SPC_URL_LINK_CHOICE: DWORD = 1;
+pub const SPC_MONIKER_LINK_CHOICE: DWORD = 2;
+pub const SPC_FILE_LINK_CHOICE: DWORD = 3;
+
 STRUCT! {struct SPC_LINK_ {
     dwLinkChoice: DWORD,
     u: SPC_LINK_u,
