@@ -67,7 +67,7 @@ UNION!{union WINTRUST_DATA_u {
     */
 }}
 
-WTD_UI_ALL = 1
+const WTD_UI_ALL: DWORD = 1
 const WTD_UI_NONE: DWORD = 2;
 const WTD_UI_NOBAD: DWORD = 3;
 const WTD_UI_NOGOOD: DWORD = 4;
