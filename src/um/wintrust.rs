@@ -115,5 +115,5 @@ STRUCT! {struct WINTRUST_FILE_INFO {
 }}
 
 extern "system" {
-    pub fn WinVerifyTrust(hwnd: HWND, pgActionID: *mut GUID, pWVTData: LPVOID) -> HRESULT;
+    pub fn WinVerifyTrust(hwnd: HWND, pgActionID: *mut GUID, pWVTData: LPVOID) -> LONG;
 }
