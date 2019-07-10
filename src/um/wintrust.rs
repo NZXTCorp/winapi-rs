@@ -1,8 +1,8 @@
 use shared::{
     guiddef::GUID,
     minwindef::{BYTE, DWORD, LPVOID},
-    ntdef::{HANDLE, LPCWSTR, LPWSTR, WCHAR},
-    windef::{HRESULT, HWND},
+    ntdef::{HANDLE, LPCWSTR, LPWSTR, WCHAR, HRESULT},
+    windef::HWND,
 };
 use um::wincrypt::CRYPT_DATA_BLOB;
 
