@@ -294,6 +294,7 @@ const DATA: &'static [(&'static str, &'static [&'static str], &'static [&'static
     ("shobjidl", &["guiddef", "minwindef", "objidl", "propkeydef", "propsys", "shobjidl_core", "shtypes", "unknwnbase", "windef", "winnt"], &[]),
     ("shobjidl_core", &["commctrl", "guiddef", "minwindef", "objidl", "unknwnbase", "windef", "winnt"], &[]),
     ("shtypes", &["guiddef", "minwindef", "winnt"], &[]),
+    ("softpub", &["wintrust"], &[]),
     ("spapidef", &["minwindef", "winnt"], &[]),
     ("spellcheck", &["minwindef", "ntdef", "objidlbase", "unknwnbase", "winerror"], &[]),
     ("sporder", &["guiddef", "minwindef"], &["sporder"]),

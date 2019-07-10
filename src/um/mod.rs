@@ -212,6 +212,7 @@ pub mod gl;
 #[cfg(feature = "shobjidl")] pub mod shobjidl;
 #[cfg(feature = "shobjidl_core")] pub mod shobjidl_core;
 #[cfg(feature = "shtypes")] pub mod shtypes;
+#[cfg(feature = "softpub")] pub mod softpub;
 #[cfg(feature = "spapidef")] pub mod spapidef;
 #[cfg(feature = "spellcheck")] pub mod spellcheck;
 #[cfg(feature = "sporder")] pub mod sporder;
